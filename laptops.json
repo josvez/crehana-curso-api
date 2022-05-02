@@ -1,0 +1,19 @@
+{
+    "laptops" : [
+        {
+            "id" :1,
+            "nombre": "t450",
+            "marca" : "lenovo"
+        },
+        {
+            "id" :2,
+            "nombre": "x260",
+            "marca" : "lenovo"
+        },
+        {
+            "id" :3,
+            "nombre": "t470",
+            "marca" : "lenovo"
+        }
+    ]    
+}
