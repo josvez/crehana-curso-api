@@ -7,7 +7,43 @@
     <title>API</title>
 </head>
 <body>
-    
-    <script src="main.js"></script>
+    <h1>CRUD API REST FETCH</h1>
+  <section class="crud">
+    <article>
+      <h2 class="crud-title">Agregar Laptop</h2>
+      <form class="crud-form">
+        <input type="text" name="nombre" placeholder="nombre" required>
+        <br>
+        <input type="text" name="marca" placeholder="marca" required>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="hidden" name="id">
+      </form>
+    </article>
+    <article>
+      <h2>Ver Laptops</h2>
+      <table class="crud-table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Marca</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </article>
+  </section>
+  <template id="crud-template">
+    <tr>
+      <td class="nombre"></td>
+      <td class="marca"></td>
+      <td>
+        <button class="edit">Editar</button>
+        <button class="delete">Eliminar</button>
+      </td>
+    </tr>
+  </template>
+  <script src="main.js"></script>
 </body>
 </html>
